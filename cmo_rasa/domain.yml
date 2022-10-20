@@ -1,0 +1,130 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- bot_answer
+- bot_challenge
+- confirm_negative
+- confirm_positive
+- greet
+- nlu_fallback
+- question1_file_no
+- question1_mobile_no
+- question_1
+- question_11_12_13_14
+- question_32_33
+- question_eight
+- question_eighteen
+- question_fifteen
+- question_five
+- question_nine
+- question_nineteen
+- question_seven
+- question_seventeen
+- question_six
+- question_sixteen
+- question_ten
+- question_thirty
+- question_thirtyfour
+- question_thirtyone
+- question_three_four
+- question_twenty
+- question_twentyeight
+- question_twentyfive
+- question_twentyfour
+- question_twentynine
+- question_twentyone
+- question_twentyseven
+- question_twentysix
+- question_twentythree
+- question_twentytwo
+- thanks
+- unknown_answer
+entities:
+- mobile_no
+- file_no
+slots:
+  mobile_no:
+    type: text
+    influence_conversation: true
+  file_no:
+    type: text
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: താങ്കള്‍ക്ക് മുഖ്യപരിഗതിയിലേക്ക് സ്വാഗതം!! താങ്ങൾക്ക് എന്ത് വിവരമാണ് അറിയേണ്ടത്?
+  utter_question_1:
+  - text: ദയവായി താങ്കളുടെ മൊബൈൽ നമ്പർ നൽകുക
+  utter_question_three_four:
+  - text: മുഖ്യമന്ത്രിയെ നേരിട്ട് സന്ദർശിച്ചും cmo.kerala.gov.in  എന്ന വെബ് പോർട്ടൽ മുഖേന ഓൺലൈനായും, സംസ്ഥാനത്തെ അക്ഷയ കേന്ദ്രങ്ങൾ വഴിയും, തപാൽ മുഖേനയും സമർപ്പിക്കാം
+  utter_question_five:
+  - text: cmo.kerala.gov.in എന്ന വെബ്‌പോർട്ടൽ സന്ദർശിച്ച് രജിസ്റ്റർ ചെയ്ത്  പരാതി സമർപ്പിക്കാവുന്നതാണ്. പരാതി സമർപ്പിക്കേണ്ട രീതി അടങ്ങുന്ന യൂസർ മാന്വൽ താഴെ കാണുന്ന ലിങ്കിൽ സമർപ്പിക്കാം
+  utter_question_six:
+  - text: എഴുതി തയ്യാറാക്കിയ പരാതി സംസ്ഥാനത്തെ ഏത് അക്ഷയ കേന്ദ്രം വഴിയും സമർപ്പിക്കാം
+  utter_question_seven:
+  - text: എഴുതി തയ്യാറാക്കിയ പരാതി കേരളമുഖ്യമന്ത്രി, 3 നില, നോർത്ത് ബ്ലോക്ക്, ഗവ.സെക്രട്ടേറിയറ്റ്, തിരുവനന്തപുരം, 695001 എന്ന വിലാസത്തിൽ തപാലിലൂടെ അയയ്ക്കാം
+  utter_question_eight:
+  - text: കേരളമുഖ്യമന്ത്രി, 3 നില, നോർത്ത് ബ്ലോക്ക്, ഗവ.സെക്രട്ടേറിയറ്റ്, തിരുവനന്തപുരം, 695001
+  utter_question_nine:
+  - text: പരാതി ബഹു മുഖ്യമന്ത്രിയെ അഡ്രസ് ചെയ്യണം
+  utter_question_ten:
+  - text: മാർഗനിർദ്ദേശം  download ചെയ്യുന്നതിന് ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുക  https://districts.ecourts.gov.in/e-lok-adalat. കൂടുതൽ വിവരങ്ങൾക്ക്  1076 എന്ന ടോൾ  ഫ്രീ നമ്പറിൽ ബന്ധപ്പെടുക
+  utter_question_11_12_13_14:
+  - text: 1076 എന്ന ടോൾ ഫ്രീ നമ്പറിൽ ബന്ധപ്പെടുക
+  utter_question_fifteen:
+  - text: പരാതി സമർപ്പിച്ച തീയതി മുതൽ രണ്ടാഴ്ചക്കുള്ളിൽ പരാതി തീർപ്പാക്കണം .
+  utter_question_sixteen:
+  - text: മുഖ്യമന്ത്രിയ്ക്ക് സമർപ്പിച്ച പരാതിയുമായി ബന്ധപ്പെട്ട  വിവരങ്ങൾ പരാതി കക്ഷിക്ക് നൽകുന്നതിന് ഓരോ ഓഫീസിലും ചാർജ്ജ് ഓഫീസറെ നിയോഗിച്ചിട്ടുണ്ട് .
+  utter_question_seventeen:
+  - text: എഴുതി തയ്യാറാക്കിയ അപേക്ഷയും, അനുബന്ധരേഖകളും സഹിതം സംസ്ഥാനത്തെ ഏത് അക്ഷയ കേന്ദ്രത്തെ സമീപിച്ചും അപേക്ഷ സമർപ്പിക്കാം.
+  utter_question_eighteen:
+  - text: മുഖ്യമന്ത്രിയുടെ ദുരിതാശ്വാസനിധിയിൽ നിന്നും ധനസഹായത്തിന് അപേക്ഷ സമർപ്പിക്കുന്നതിന് cmo.kerala.gov.in എന്ന വെബ് പോർട്ടൽ മുഖേന ഓൺലൈനായും, സംസ്ഥാനത്തെ അക്ഷയ കേന്ദ്രങ്ങൾ വഴിയും. എം .പി.മാർ, എം.എൽ.എ മാർ എന്നിവരുടെ ഓഫീസ്  മുഖേനയും, തപാൽ മുഖേനയും സമർപ്പിക്കാം
+  utter_question_nineteen:
+  - text: cmo.kerala.gov.in എന്ന വെബ്‌പോർട്ടൽ സന്ദർശിച്ച് രജിസ്റ്റർ ചെയ്ത് അപേക്ഷ സമർപ്പിക്കാവുന്നതാണ്  https://districts.ecourts.gov.in/e-lok-adalat. അപേക്ഷ സമർപ്പിക്കേണ്ട രീതി അടങ്ങുന്ന യൂസർ മാന്വൽ താഴെക്കാണുന്ന ലിങ്കിൽ സമർപ്പിക്കാം.
+  utter_question_twenty:
+  - text: എഴുതി തയ്യാറാക്കിയ അപേക്ഷയും, അനുബന്ധ രേഖകളും സഹിതം സംസ്ഥാനത്തെ ഏത് അക്ഷയ കേന്ദ്രത്തെ സമീപിച്ചും അപേക്ഷ സമർപ്പിക്കാം.
+  utter_question_twentyone:
+  - text: എഴുതി തയ്യാറാക്കിയ അപേക്ഷയും, അനുബന്ധ രേഖകളും സഹിതം കേരള മുഖ്യമന്ത്രി. 3 നില,നോർത്ത് ബ്ലോക്ക് ഗവ.സെക്രട്ടേറിയറ്റ്, തിരുവനന്തപുരം, 695001 എന്ന വിലാസത്തിൽ തപാലിലൂടെ അയയ്ക്കാം.
+  utter_question_twentytwo:
+  - text: കഴിയും
+  utter_question_twentythree:
+  - text: മുഖ്യമന്ത്രിയെ അഡ്രസ് ചെയ്യണം.
+  utter_question_twentyfour:
+  - text: അപേക്ഷ ഫോറം download ചെയ്യുന്നതിന് ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുക.
+  utter_question_twentyfive:
+  - text: രണ്ട് ലക്ഷത്തിനു താഴെ വാർഷികവരുമാനം ഉള്ളവർക്ക്. മാരകമായ രോഗങ്ങളുടെ ചികിത്സയ്ക്ക്. അപകട മരണം നേരിട്ടവരുടെ ആശ്രിതർക്ക് സമാശ്വാസ ധനസഹായം. വീടുകൾക്കും ചെറുകിട കച്ചവടസ്ഥാപനങ്ങൾക്കും തീപിടുത്തം കാരണം വരുന്ന നാശനഷ്ടങ്ങൾക്ക്. കടൽക്ഷോഭം മൂലം വള്ളത്തിനും വലയ്ക്കും ഉണ്ടായ നാശനഷ്ടങ്ങൾക്ക്.
+  utter_question_twentysix:
+  - text: ഗുണഭോക്താവിന്റെ പേര് ഉൾകൊള്ളുന്ന റേഷൻ കാർഡ്, ആറ് മാസത്തിനുള്ളിൽ ഉള്ള മെഡിക്കൽ സർട്ടിഫിക്കറ്റ് ആധാർ കാർഡ്, സേവിങ്സ് ബാങ്ക് അക്കൗണ്ട് നമ്പർ കാണിക്കുന്ന പാസ്ബുക്ക് എന്നിവയുടെ പകർപ്പ്
+  utter_question_twentyseven:
+  - text: മരണമടഞ്ഞ വ്യക്തിയുടെ പേര് ഉൾകൊള്ളുന്ന റേഷൻ കാർഡിന്റെ പകർപ്പ്, മരണ സർട്ടിഫിക്കറ്റ്, FIR, പോസ്റ്റ്‌മോർട്ടം റിപ്പോർട്ട്, അപേക്ഷകന്റെ ആധാർ കാർഡിന്റെ പകർപ്പ്, അപേക്ഷകന്റെ ബാങ്ക് പാസ്സ്‌ ബുക്കിന്റെ പകർപ്പ് (വിവാഹിതൻ /വിവാഹിത മരണപ്പെടുന്ന കേസിൽ പങ്കാളിയല്ലാതെ മറ്റൊരാൾ അപേക്ഷിക്കുന്ന പക്ഷം തുക അപേക്ഷകന്റെ അക്കൗണ്ടിൽ നൽകുന്നതിന് തയ്യാറാണെന്ന പങ്കാളിയുടെ സമ്മതപത്രം.
+  utter_question_twentyeight:
+  - text: വിവരം ലഭ്യമല്ല.
+  utter_question_twentynine:
+  - text: വിവരം ലഭ്യമല്ല.
+  utter_question_thirty:
+  - text: വാർഷികവരുമാനം  2 ലക്ഷം രൂപയിൽ താഴെ
+  utter_question_thirtyone:
+  - text: വിവരം ലഭ്യമല്ല
+  utter_question_32_33:
+  - text: 1076 എന്ന ടോൾ ഫ്രീ നമ്പറിൽ ബന്ധപ്പെടുക
+  utter_question_thirtyfour:
+  - text: 0471-2517287, നമ്പറിൽ ബന്ധപെടുക
+  utter_bot_answer:
+  - text: I am a bot, powered by Rasa.
+  utter_confirms:
+  - text: ഇനി കൂടുതൽ എന്തെങ്കിലു അറിയാൻ ഉണ്ടോ?
+  utter_thanks:
+  - text: നന്ദി ! വീണ്ടു വരിക!
+  utter_please_rephrase:
+  - text: ക്ഷമിക്കണം.താങ്ങളുടെ ചോദ്യം വ്യക്തമാകൂ
+  utter_re_ask:
+  - text: എന്താണ് തങ്ങൾക്കു വീണ്ടും അറിയേണ്ടത്?
+actions:
+- action_request_mobileno_form
+- action_request_fileno_form
+forms:
+  request_mobileno_form:
+    required_slots: {}
+  request_fileno_form:
+    required_slots: {}

@@ -1,0 +1,122 @@
+[
+  {
+    "text": "മുഖ്യമന്ത്രിയ്ക്ക് എങ്ങനെയൊക്കെ അപേക്ഷ സമർപ്പിക്കാം ?",
+    "intent": "question_seventeen",
+    "intent_prediction": {
+      "name": "question_three_four",
+      "confidence": 0.6566798686981201
+    }
+  },
+  {
+    "text": "എല്ലാം മനസ്സിലായി",
+    "intent": "confirm_positive",
+    "intent_prediction": {
+      "name": "question_five",
+      "confidence": 0.21152356266975403
+    }
+  },
+  {
+    "text": "സ്വേഡ്",
+    "intent": "unknown_answer",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7794092893600464
+    }
+  },
+  {
+    "text": "ഹലോ",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "unknown_answer",
+      "confidence": 0.27875009179115295
+    }
+  },
+  {
+    "text": "നമസ്കാരം",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "question_six",
+      "confidence": 0.8283956050872803
+    }
+  },
+  {
+    "text": "ഞാൻ ആരോടാണ് സംസാരിക്കുന്നത്?",
+    "intent": "bot_answer",
+    "intent_prediction": {
+      "name": "unknown_answer",
+      "confidence": 0.6990898847579956
+    }
+  },
+  {
+    "text": "ഗുഡ് നൈറ്റ്",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "question_five",
+      "confidence": 0.5234113931655884
+    }
+  },
+  {
+    "text": "ഖഡഡവെ",
+    "intent": "unknown_answer",
+    "intent_prediction": {
+      "name": "question_five",
+      "confidence": 0.5404554009437561
+    }
+  },
+  {
+    "text": "ഏഏഏഏ",
+    "intent": "unknown_answer",
+    "intent_prediction": {
+      "name": "question_five",
+      "confidence": 0.5162249803543091
+    }
+  },
+  {
+    "text": "നിങളുടെ പേര് എന്താണ് ?",
+    "intent": "bot_answer",
+    "intent_prediction": {
+      "name": "question_1",
+      "confidence": 0.32132983207702637
+    }
+  },
+  {
+    "text": "ഇത് ചാറ്റ്ബോട് ആണോ?",
+    "intent": "bot_answer",
+    "intent_prediction": {
+      "name": "question_1",
+      "confidence": 0.9528478980064392
+    }
+  },
+  {
+    "text": "സുപ്രഭാതം",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "unknown_answer",
+      "confidence": 0.904015302658081
+    }
+  },
+  {
+    "text": "മുഖ്യമന്ത്രിയ്ക്ക് എങ്ങനെയൊക്കെ പരാതി സമർപ്പിക്കാം ?",
+    "intent": "question_three_four",
+    "intent_prediction": {
+      "name": "question_seventeen",
+      "confidence": 0.6069424152374268
+    }
+  },
+  {
+    "text": "മുഖ്യമന്ത്രിയ്ക്ക് പരാതി നൽകുന്നതെങ്ങനെ ?",
+    "intent": "question_three_four",
+    "intent_prediction": {
+      "name": "question_seven",
+      "confidence": 0.505387008190155
+    }
+  },
+  {
+    "text": "മുഖ്യമന്ത്രിയുടെ ദുരിതാശ്വാസനിധിയിൽ നിന്നും വീടുകൾക്കും ചെറുകിട കച്ചവട സ്ഥാപനങ്ങൾക്കും തീപിടുത്തം കാരണം വരുന്ന നാശനഷ്ടങ്ങൾക്കുള്ള  കടൽ ക്ഷോഭം മൂലം വള്ളത്തിനും വലയ്ക്കും ഉണ്ടായ നാശനഷ്ടങ്ങൾക്കുള്ള  ധനസഹായത്തിനുള്ള അപേക്ഷയോടൊപ്പം ഏതൊക്കെ രേഖകൾ ആണ് നൽകേണ്ടത് ?",
+    "intent": "question_twentynine",
+    "intent_prediction": {
+      "name": "question_twentyeight",
+      "confidence": 0.5759029984474182
+    }
+  }
+]

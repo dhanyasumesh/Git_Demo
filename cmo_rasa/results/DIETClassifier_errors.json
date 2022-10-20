@@ -1,0 +1,31 @@
+[
+  {
+    "text": "0 9121567843",
+    "entities": [
+      {
+        "start": 2,
+        "end": 12,
+        "value": "9121567843",
+        "entity": "mobile_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mobile_no",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.7607183456420898,
+        "value": "0",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "mobile_no",
+        "start": 2,
+        "end": 12,
+        "confidence_entity": 0.9441179633140564,
+        "value": "9121567843",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
